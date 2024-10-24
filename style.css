@@ -1,0 +1,35 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(190, 197, 197);
+  }
+  .quiz-container {
+    background-color: rgb(98, 103, 129);
+    
+    width: 100%;
+    max-width: 500px;
+  }
+  h2 {
+    margin-bottom: 20px;
+
+  }
+  
+  button {
+  
+    cursor: pointer;
+  }
+  .list-group-item {
+    display: flex;
+    align-items: center;
+  }
+  .list-group-item  input {
+    margin-right: 10px;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 768px) {
+    
+    
+  }
